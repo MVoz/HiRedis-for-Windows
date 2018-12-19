@@ -1,3 +1,10 @@
+# Build Example
+
+`msbuild hiredis.vcxproj /target:Clean;ReBuild /p:Configuration=Release /p:Platform=x64 /p:VcpkgTriplet=x64-windows-static`
+
+`cov-build.exe --dir cov-int msbuild.exe hiredis.vcxproj /p:DefineConstants=COVERITY /target:Clean;ReBuild /p:Configuration=Release /p:Platform=x64 /p:TargetFrameworkVersion=v4.0 /p:TargetPlatformVersion="10.0.17134.0" /p:VcpkgTriplet=x64-windows-static /m`
+
+
 [![Build Status](https://travis-ci.org/redis/hiredis.png)](https://travis-ci.org/redis/hiredis)
 
 # HIREDIS
