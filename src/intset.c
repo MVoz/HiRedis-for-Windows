@@ -29,7 +29,7 @@
  */
 
 #ifdef _WIN32
-#include "../../src/Win32_Interop/Win32_Portability.h"
+#include "Win32_Interop/Win32_Portability.h"
 #endif
 
 #include <stdio.h>
