@@ -33,7 +33,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 #ifdef _WIN32
-#include "../../src/win32_Interop/win32_types.h"
+#include "win32_Interop/win32_types.h"
 #endif
 
 #include "fmacros.h"
