@@ -7,7 +7,7 @@
 #include <sys/time.h>
 #else
 #include <WinSock2.h>
-#include "../../src/Win32_Interop/Win32_Time.h"
+#include "Win32_Interop/Win32_Time.h"
 #endif
 #include <assert.h>
 #ifndef _WIN32
