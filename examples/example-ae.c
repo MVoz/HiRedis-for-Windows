@@ -1,5 +1,5 @@
 #ifdef _WIN32
-#include "..\..\src\Win32_Interop\win32fixes.h"
+#include "Win32_Interop\win32fixes.h"
 #endif
 
 #include <stdio.h>
